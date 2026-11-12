@@ -1,0 +1,28 @@
+{
+  "name": "pi-interject",
+  "version": "0.1.0",
+  "description": "hard-steer a running pi agent by submitting an interrupt on a trigger key",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./src/interject.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmatzen/pi-interject.git"
+  },
+  "author": "kmatzen",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
