@@ -1,6 +1,6 @@
 {
   "name": "pi-interject",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "hard-steer a running pi agent by submitting an interrupt on a trigger key",
   "type": "module",
   "pi": {
